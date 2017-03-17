@@ -1,0 +1,5 @@
+node_modules
+rethinkdb.exe
+rethinkdb_data
+.swp
+index.old.js

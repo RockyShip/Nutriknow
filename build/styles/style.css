@@ -1,0 +1,50 @@
+body {
+  font: 24px arial;
+  background-color: orange;
+}
+
+#home {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding: 1em;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 0.75em rgba(0,0,0,0.3);
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.tabs {
+}
+
+.tabs-navigation {
+}
+
+.tabs-menu-item {
+  display: inline-block;
+  float: left;
+  padding: 0.5em 1em;
+}
+
+.is-active {
+  border-top: 0.3em solid skyblue;
+  border-radius: 0.3em 0.3em 0 0;
+  padding-top: 0.2em;
+  background-color: white;
+}
+
+.tab-panel {
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.tab-panel ul li {
+  margin-left: 0.5em;
+  margin-bottom: 0.3em;
+}
